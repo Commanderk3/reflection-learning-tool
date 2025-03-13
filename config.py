@@ -2,10 +2,9 @@
 URL = "http://localhost:11434"  # Ollama's default endpoint
 
 # Model name in Ollama
-LLM_MODEL = "llama3"  # Confirmed to be available
-
+LLM_MODEL = "llama3"
 # Embedding model for ChromaDB
-EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"  # Ensure sentence-transformers is installed
+EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
 # Directory for ChromaDB persistence
-CHROMA_DB_DIR = "./db"  # Ensure this directory exists or will be created
+CHROMA_DB_DIR = "./db" 
